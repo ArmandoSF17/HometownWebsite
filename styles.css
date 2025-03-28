@@ -127,7 +127,7 @@ img {
     background-color: #e8dacd;
     font-family: Cabinet, sans-serif;
     padding: 2px;
-    margin-top: -1px; /* I added this because with the mobile view i had a very thin white line */
+    margin-top: -1px; /* I added this because from mobile I had a very thin white line even thought I don't have a mobile version I wanted to try this change */
 }
 
 .card {
