@@ -6,21 +6,30 @@
 }
 
 
+
 body {
     margin: 0;
-    text-align: center;
-    font-family: url 
+    text-align: center; 
+    font-family: Cabinet;
 }
+
 
 img {
     width: 100px;
 }
 
-.hero {
+
+.hero,
+.activity-section,
+.guide {
     background-color: #e8dacd;
-    padding: 10px 10px;
-    font-family: Cabinet, sans-serif;
 }
+
+
+.hero {
+    padding: 10px 10px;
+}
+
 
 .hero-inside {
     background-image: url(images/reggia-alto.jpg);
@@ -34,6 +43,7 @@ img {
     padding: 120px 0; 
 }
 
+
 .hero-inside h1 {
     font-size: 40px ;
     margin-bottom: 0;
@@ -43,6 +53,7 @@ img {
     border-radius: 20px;
 }
 
+
 .hero-inside h2 {
     font-size: 20px;
     background-color: #E8DACD;
@@ -51,14 +62,14 @@ img {
     border-radius: 20px;    
 }
 
+
 .activity-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    background-color: #e8dacd;
-    font-family: Cabinet, sans-serif;
 }
+
 
 .activity-section> h3 {
   font-size: 50px;
@@ -78,7 +89,6 @@ img {
 
 
 .activity-card {
-    background-color: #E8DACD;
     border-radius: 20px;
     padding: 20px;
     box-sizing: border-box;
@@ -100,11 +110,6 @@ img {
 
 }   
 
-.activity-card:hover {
-    transform: translateY(-10px);   
-    box-shadow: 0 8px 25px #c5b19f;
-  }
-
 .activity-card u {
     text-decoration-thickness: 2px;
 }
@@ -124,8 +129,6 @@ img {
 }
 
 .guide {
-    background-color: #e8dacd;
-    font-family: Cabinet, sans-serif;
     padding: 2px;
     margin-top: -1px; /* I added this because from mobile I had a very thin white line even thought I don't have a mobile version I wanted to try this change */
 }
@@ -167,14 +170,9 @@ img {
 
 }
 
-.card:hover {
+.card:hover,
+.activity-card:hover,
+.activity-card:active {
     transform: translateY(-10px);   
     box-shadow: 0 8px 25px #c5b19f;
   }
-
-
-  .activity-card:active { 
-    transform: translateY(-10px);   
-    box-shadow: 0 8px 25px #c5b19f;
-    
-}
